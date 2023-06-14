@@ -1,0 +1,4 @@
+#Tue Jun 13 13:57:56 IST 2023
+base.0=C\:\\Users\\Praveen kanna\\New folder (2)\\zencowallet\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

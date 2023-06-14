@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.zencowallet"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:3:5-69
+11-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:3:22-67
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:4:22-77
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->[:camera_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
+13-->[:camera_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->[:camera_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+14-->[:camera_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+15-->[:local_auth_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\local_auth_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-72
+15-->[:local_auth_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\local_auth_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-69
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+16-->[androidx.biometric:biometric:1.1.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\c44a989e5c50bfc6cf434d229b546c7f\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+16-->[androidx.biometric:biometric:1.1.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\c44a989e5c50bfc6cf434d229b546c7f\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+17
+18    <permission
+18-->[androidx.core:core:1.10.1] C:\Users\Praveen kanna\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.zencowallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.10.1] C:\Users\Praveen kanna\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.10.1] C:\Users\Praveen kanna\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.zencowallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.10.1] C:\Users\Praveen kanna\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.10.1] C:\Users\Praveen kanna\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+23
+24    <application
+25        android:name="android.app.Application"
+25-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:10:9-42
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.10.1] C:\Users\Praveen kanna\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="zencowallet" >
+28-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:9:9-36
+29        <activity
+29-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:12:9-32:20
+30            android:name="com.example.zencowallet.MainActivity"
+30-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:13:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:17:13-163
+32            android:exported="true"
+32-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:14:13-36
+33            android:hardwareAccelerated="true"
+33-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:18:13-47
+34            android:launchMode="singleTop"
+34-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:15:13-43
+35            android:theme="@style/LaunchTheme"
+35-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:16:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:19:13-55
+37
+38            <!--
+39                 Specifies an Android theme to apply to this Activity as soon as
+40                 the Android process has started. This theme is visible to the user
+41                 while the Flutter UI initializes. After that, this theme continues
+42                 to determine the Window background behind the Flutter UI.
+43            -->
+44            <meta-data
+44-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:24:13-27:17
+45                android:name="io.flutter.embedding.android.NormalTheme"
+45-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:25:15-70
+46                android:resource="@style/NormalTheme" />
+46-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:26:15-52
+47
+48            <intent-filter>
+48-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:28:13-31:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:29:17-68
+49-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:29:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:30:17-76
+51-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:30:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+58-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:35:9-37:33
+59            android:name="flutterEmbedding"
+59-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:36:13-44
+60            android:value="2" />
+60-->C:\Users\Praveen kanna\New folder (2)\zencowallet\android\app\src\main\AndroidManifest.xml:37:13-30
+61
+62        <provider
+62-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+63            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+63-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+64            android:authorities="com.example.zencowallet.flutter.image_provider"
+64-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+65            android:exported="false"
+65-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+66            android:grantUriPermissions="true" >
+66-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+67            <meta-data
+67-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+69                android:resource="@xml/flutter_image_picker_file_paths" />
+69-->[:image_picker_android] C:\Users\Praveen kanna\New folder (2)\zencowallet\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+70        </provider>
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\Praveen kanna\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\Praveen kanna\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\Praveen kanna\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\Praveen kanna\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\Praveen kanna\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\Praveen kanna\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+78
+79        <provider
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.zencowallet.androidx-startup"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Praveen kanna\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>
